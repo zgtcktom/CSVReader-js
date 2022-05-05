@@ -1,6 +1,6 @@
 {
   "name": "csvreader-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSV reader for browser with readable stream and csv dialect support, sync and async",
   "main": "./index.js",
   "scripts": {
