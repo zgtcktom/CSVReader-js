@@ -1,0 +1,39 @@
+{
+  "name": "csvreader-js",
+  "version": "1.0.0",
+  "description": "CSV reader for browser with readable stream and csv dialect support, sync and async",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgtcktom/CSVReader-js.git"
+  },
+  "keywords": [
+    "csv",
+    "reader",
+    "readable stream",
+    "csv dialect",
+    "sync",
+    "async",
+    "promise",
+    "js",
+	"browser"
+  ],
+  "author": "Irreg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zgtcktom/CSVReader-js/issues"
+  },
+  "homepage": "https://github.com/zgtcktom/CSVReader-js#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0"
+  },
+  "type": "module",
+  "exports": {
+    "import": "./src/index.js",
+    "require": "./index.cjs"
+  }
+}
